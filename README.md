@@ -2,6 +2,10 @@
 
 ## Project setup
 ```
+## Tutorial
+
+Website: https://www.amaanrajput.me
+
 npm install
 ```
 
