@@ -1,4 +1,4 @@
-# myapp
+# Vue CLI 3
 
 ## Project setup
 ```
