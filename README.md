@@ -1,11 +1,12 @@
 # Vue CLI 3
 
+# Tutorial
+```
+Website: https://www.amaanrajput.me
+```
+
 ## Project setup
 ```
-## Tutorial
-
-Website: https://www.amaanrajput.me
-
 npm install
 ```
 
