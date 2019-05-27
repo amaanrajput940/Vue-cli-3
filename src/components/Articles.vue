@@ -1,5 +1,6 @@
 <template>
     <div class="articles">
+        <!-- Edited h1 tag with {{heading}} -->
         <div class="posts" v-for="(post, index) in posts" :key="index">
             <h1><router-link :to="post.permalink">{{post.title}}</router-link></h1>
             <p>Posted by - {{post.author.name}}</p>
@@ -7,7 +8,7 @@
         </div>
     </div>
 </template>
-
+<!--It has the following basic syntax.-->
 <script>
     export default {
         name: 'articles',

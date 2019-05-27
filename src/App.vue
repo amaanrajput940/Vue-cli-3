@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
 	<header>
 	<div class="logo"><img alt="Vue logo" src="./assets/logo.png"></div>
 	<ul class="nav">
@@ -12,22 +11,18 @@
 		<li><router-link to="/about">About Me</router-link></li>
 	</ul>
 	</header>
-
 	<div>
 		<!-- route outlet -->
 		<!-- component matched by the route will render here -->
 	<router-view></router-view>
 	</div>
-
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
 export default {
   name: 'app',
   components: {
-    // HelloWorld
   }
 }
 </script>
